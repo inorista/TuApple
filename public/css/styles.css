@@ -1,0 +1,332 @@
+
+@font-face {
+        font-family: 'bebas_neuebold';
+        src: url('fonts/BebasNeueBold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('fonts/BebasNeueLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/BebasNeue-Regular.otf') format('opentype'),
+         url('fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg{
+    background-image: url("https://i.ibb.co/qj9p7st/big-sur-apple-4k-abstract.jpg");
+}
+.text_header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black !important;
+}
+.content_slide{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    color: #3d2514 !important;
+    text-align: center;
+    border-style: dashed;
+    border-width: 0.15vw;
+    border-color: #3d2514 !important;
+}
+.input-group-append .btn{
+    height: 38px;
+    
+}
+.sale_1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 90px;
+    color: #3d2514;
+    text-shadow: 3px 3px #fee8bc;
+}
+.sale_2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 70px;
+    color: #3d2514;
+    text-shadow: 3px 3px #fee8bc;
+}
+#flashsale path{
+    stroke-dasharray: 1000;
+    stroke-dasharray: 0;
+}
+.content_nav{
+    font-family: 'bebas_neuebold';
+    font-size: 30px;
+    color: black !important;
+    opacity: 0.8 !important;
+}
+.box{
+    padding: 10px;
+}
+.box_content{
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(244,92,33);
+}
+.box_content2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    color: rgb(255,135,2);
+    font-style: bold;
+}
+
+body{
+    background-color: rgb(245,248,253) !important;
+}
+.img{
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name a:link{
+    text-decoration: none;
+    color: black;
+}
+a h3{
+    font-size: 14px;
+}
+.product{
+    background-color: white;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.product .col-md-3{
+    transition-duration: 0.1s;
+}
+.product .col-md-3:hover{
+    box-shadow: 2px 0px 2px 0px #e8e8e8, -2px 0px 2px 0px #E8E8E9;
+}
+.product .col-md-3 .col-md-12 .img{
+    transition-duration: 0.2s;
+}
+.product .col-md-3 .col-md-12 .img:hover{
+    transform: scale(1.05);
+}
+.price .special_price{
+    display: inline-block;
+    color: #d70018;
+    font-weight: 700;
+}
+.price .old_price{
+    display: inline-block;
+    color: #716b6b;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.sticky_sale{
+    position: absolute;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    bottom: 10px;
+    right: 0;
+}
+.fa{
+    font-size: 12px;
+}
+.checked{
+    color: orange;
+}
+.sticky_ribbon{
+    position: absolute;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    background-image: url("https://i.ibb.co/z6WRCWV/sticker-ribbon.png");
+    background-size: 35px 30px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.drop_shadow{
+    box-shadow: 1px 0px 1px 0px #e8e8e8, -1px 0px 1px 0px #E8E8E9;
+}
+.drop_shadow2{
+    box-shadow: 1px 0px 1px 0px #e8e8e8, -1px 0px 1px 0px #E8E8E9;
+}
+.check{
+    border-bottom: -1px grey !important;
+}
+.product_detail{
+    border: 1px solid #eee;
+}
+.form_info_child{
+    padding: 10px;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background-color: #F7F7F7;
+}
+.price-box .special_price{
+    display: inline-block;
+    color: #d70018;
+    font-weight: 700;
+    font-size: 20px;
+}
+.price-box .old_price_text{
+    display: inline-block;
+    font-size: 14px;
+}
+.price-box .old_price_text .old_price{
+    display: inline-block;
+    color: #716b6b;
+    font-size: 16px;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.event .event_text{
+    font-weight: 600;
+    font-size: 12px;
+}
+.flashsale_banner{
+    background: linear-gradient(90deg,#ef3f23,#ff8a00)     !important;;
+    background-size: cover !important;
+    height: 40px;
+    border-radius: 2px
+}
+.pd{
+    box-shadow: 0px 2px #EEEEEE;
+}
+.namepd{
+    font-weight: 700;
+    font-size: 18px;
+}
+.qty{
+    display: inline-block;
+}
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0;
+    min-width: 32px;
+    text-align: center;
+    border: 1px solid rgb(236, 236, 236)
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: auto;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    padding: 6px 6px;
+}
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: auto;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    padding: 6px 6px;
+    background-clip: padding-box;
+}
+.checkquan div {
+    text-align: left;
+}
+.checkquan .quan-text{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+.minus:hover{
+    background-color: #ebebeb !important;
+}
+.plus:hover{
+    background-color: #ebebeb !important;
+}
+.qty span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.qty input{  
+    border: 0;
+    width: 2%;
+}
+.qty input::-webkit-outer-spin-button,
+.qty input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.qty input:disabled{
+    background-color:white;
+}
+.flashsale_banner p{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.form-control{
+    display: inline-block !important;
+    width: 67% !important;
+}
+.label-text{
+    font-size: 14px;
+    font-weight: bold;
+}
+.main-section{
+	background-color: transparent;
+}
+.dropdown{
+	float:right;
+	padding-right: 30px;
+}
+.btn{
+	border:0px;
+	margin:10px 0px;
+	box-shadow:none !important; 
+}
+.links a:visited{
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+    border: 2px black;
+    border-radius: 50px;
+}
+.links a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background: transparent;
+    border: 2px black;
+    border-radius: 50px;
+}
+.text-ad{
+    font-size: 38px;
+}
+.datatable{
+    border-top: 1px solid #e9ecef !important;
+}
+.special-color-dark{
+    background-color: #263238 !important;
+}
+.footer-copyright{
+    background-color: #1E282D !important;
+    color: white;
+    font-size: 14px;
+}
+.text_list{
+    font-size: 14px !important;
+}
